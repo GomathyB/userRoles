@@ -14,6 +14,8 @@ import com.cts.exception.UserNotFoundException;
 import com.cts.model.UserRoles;
 import com.cts.service.UserRolesService;
 
+import jakarta.validation.Valid;
+
 @RestController
 @RequestMapping("/userRoles")
 public class UserRolesController {
@@ -21,12 +23,12 @@ public class UserRolesController {
 	UserRolesService service;
 
 	@PostMapping("/addUser")
-	public String addUser(@RequestBody UserRoles user) {
+	public String addUser(@Valid @RequestBody UserRoles user) {
 		return service.addUser(user);
 	}
 
 	@PutMapping("/updateUser")
-	public String updateUser(@RequestBody UserRoles user) {
+	public String updateUser(@Valid @RequestBody UserRoles user) {
 		return service.updateUser(user);
 	}
 
