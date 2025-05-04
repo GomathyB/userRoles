@@ -1,0 +1,135 @@
+2025-05-04T19:20:32.610+05:30  INFO 18540 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : Starting UserRolesApplication using Java 21.0.6 with PID 18540 (C:\Users\2401069\Documents\Travel Package Booking Project\UserRoles\target\classes started by 2401069 in C:\Users\2401069\Documents\Travel Package Booking Project\UserRoles)
+2025-05-04T19:20:32.614+05:30  INFO 18540 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-05-04T19:20:32.673+05:30  INFO 18540 --- [UserRoles] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-05-04T19:20:32.685+05:30  INFO 18540 --- [UserRoles] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=UserRoles, profiles=[default], label=null, version=f14b01b423845aacc378ac9b089487c6f342805b, state=
+2025-05-04T19:20:32.688+05:30  INFO 18540 --- [UserRoles] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-04T19:20:35.639+05:30  INFO 18540 --- [UserRoles] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-04T19:20:35.904+05:30  INFO 18540 --- [UserRoles] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 216 ms. Found 1 JPA repository interface.
+2025-05-04T19:20:36.325+05:30  INFO 18540 --- [UserRoles] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=221fbed0-292b-3ea3-b28c-33127cfa491f
+2025-05-04T19:20:38.757+05:30  INFO 18540 --- [UserRoles] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-04T19:20:39.080+05:30  INFO 18540 --- [UserRoles] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-04T19:20:39.253+05:30  INFO 18540 --- [UserRoles] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-04T19:20:40.499+05:30  INFO 18540 --- [UserRoles] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-04T19:20:40.642+05:30  INFO 18540 --- [UserRoles] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-04T19:20:41.723+05:30  INFO 18540 --- [UserRoles] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@506ad317
+2025-05-04T19:20:41.723+05:30  INFO 18540 --- [UserRoles] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-04T19:20:41.912+05:30  WARN 18540 --- [UserRoles] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-04T19:20:41.976+05:30  INFO 18540 --- [UserRoles] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-04T19:20:45.329+05:30  INFO 18540 --- [UserRoles] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-04T19:20:45.503+05:30  INFO 18540 --- [UserRoles] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-04T19:20:47.084+05:30  WARN 18540 --- [UserRoles] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-05-04T19:20:47.197+05:30  INFO 18540 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : Started UserRolesApplication in 26.783 seconds (process running for 27.772)
+2025-05-04T19:20:47.217+05:30  INFO 18540 --- [UserRoles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-04T19:20:47.224+05:30  INFO 18540 --- [UserRoles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-04T19:20:47.231+05:30  INFO 18540 --- [UserRoles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-04T19:22:22.479+05:30  INFO 3772 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : Starting UserRolesApplication using Java 21.0.6 with PID 3772 (C:\Users\2401069\Documents\Travel Package Booking Project\UserRoles\target\classes started by 2401069 in C:\Users\2401069\Documents\Travel Package Booking Project\UserRoles)
+2025-05-04T19:22:22.482+05:30  INFO 3772 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-05-04T19:22:22.562+05:30  INFO 3772 --- [UserRoles] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-05-04T19:22:22.562+05:30  INFO 3772 --- [UserRoles] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=UserRoles, profiles=[default], label=null, version=f14b01b423845aacc378ac9b089487c6f342805b, state=
+2025-05-04T19:22:22.565+05:30  INFO 3772 --- [UserRoles] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-04T19:22:23.577+05:30  INFO 3772 --- [UserRoles] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-04T19:22:23.659+05:30  INFO 3772 --- [UserRoles] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2025-05-04T19:22:23.829+05:30  INFO 3772 --- [UserRoles] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=221fbed0-292b-3ea3-b28c-33127cfa491f
+2025-05-04T19:22:24.575+05:30  INFO 3772 --- [UserRoles] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-04T19:22:24.716+05:30  INFO 3772 --- [UserRoles] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-04T19:22:24.799+05:30  INFO 3772 --- [UserRoles] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-04T19:22:25.521+05:30  INFO 3772 --- [UserRoles] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-04T19:22:25.626+05:30  INFO 3772 --- [UserRoles] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-04T19:22:26.145+05:30  INFO 3772 --- [UserRoles] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40d7933f
+2025-05-04T19:22:26.148+05:30  INFO 3772 --- [UserRoles] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-04T19:22:26.273+05:30  WARN 3772 --- [UserRoles] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-04T19:22:26.296+05:30  INFO 3772 --- [UserRoles] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-04T19:22:27.908+05:30  INFO 3772 --- [UserRoles] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-04T19:22:27.993+05:30  INFO 3772 --- [UserRoles] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-04T19:22:29.161+05:30  WARN 3772 --- [UserRoles] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-05-04T19:22:29.304+05:30  INFO 3772 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : Started UserRolesApplication in 9.321 seconds (process running for 10.373)
+2025-05-04T19:22:29.318+05:30  INFO 3772 --- [UserRoles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-04T19:22:29.322+05:30  INFO 3772 --- [UserRoles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-04T19:22:29.334+05:30  INFO 3772 --- [UserRoles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-04T19:23:34.428+05:30  INFO 19740 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : Starting UserRolesApplication using Java 21.0.6 with PID 19740 (C:\Users\2401069\Documents\Travel Package Booking Project\UserRoles\target\classes started by 2401069 in C:\Users\2401069\Documents\Travel Package Booking Project\UserRoles)
+2025-05-04T19:23:34.430+05:30  INFO 19740 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-05-04T19:23:34.484+05:30  INFO 19740 --- [UserRoles] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-05-04T19:23:34.484+05:30  INFO 19740 --- [UserRoles] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=UserRoles, profiles=[default], label=null, version=f14b01b423845aacc378ac9b089487c6f342805b, state=
+2025-05-04T19:23:34.486+05:30  INFO 19740 --- [UserRoles] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-04T19:23:35.314+05:30  INFO 19740 --- [UserRoles] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-04T19:23:35.399+05:30  INFO 19740 --- [UserRoles] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+2025-05-04T19:23:35.580+05:30  INFO 19740 --- [UserRoles] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=221fbed0-292b-3ea3-b28c-33127cfa491f
+2025-05-04T19:23:36.520+05:30  INFO 19740 --- [UserRoles] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-04T19:23:36.610+05:30  INFO 19740 --- [UserRoles] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-04T19:23:36.690+05:30  INFO 19740 --- [UserRoles] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-04T19:23:37.239+05:30  INFO 19740 --- [UserRoles] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-04T19:23:37.337+05:30  INFO 19740 --- [UserRoles] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-04T19:23:38.047+05:30  INFO 19740 --- [UserRoles] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cff8282
+2025-05-04T19:23:38.053+05:30  INFO 19740 --- [UserRoles] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-04T19:23:38.192+05:30  WARN 19740 --- [UserRoles] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-04T19:23:38.220+05:30  INFO 19740 --- [UserRoles] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-04T19:23:39.087+05:30  INFO 19740 --- [UserRoles] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-04T19:23:39.138+05:30  INFO 19740 --- [UserRoles] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-04T19:23:40.543+05:30  WARN 19740 --- [UserRoles] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-05-04T19:23:40.654+05:30  INFO 19740 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : Started UserRolesApplication in 8.717 seconds (process running for 9.55)
+2025-05-04T19:23:40.665+05:30  INFO 19740 --- [UserRoles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-04T19:23:40.668+05:30  INFO 19740 --- [UserRoles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-04T19:23:40.676+05:30  INFO 19740 --- [UserRoles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-04T19:34:15.372+05:30  INFO 31832 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : Starting UserRolesApplication using Java 21.0.6 with PID 31832 (C:\Users\2401069\Documents\Travel Package Booking Project\UserRoles\target\classes started by 2401069 in C:\Users\2401069\Documents\Travel Package Booking Project\UserRoles)
+2025-05-04T19:34:15.374+05:30  INFO 31832 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-05-04T19:34:15.416+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-05-04T19:34:15.417+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=UserRoles, profiles=[default], label=null, version=f14b01b423845aacc378ac9b089487c6f342805b, state=
+2025-05-04T19:34:15.420+05:30  INFO 31832 --- [UserRoles] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-04T19:34:15.421+05:30  INFO 31832 --- [UserRoles] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-04T19:34:16.240+05:30  INFO 31832 --- [UserRoles] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-04T19:34:16.287+05:30  INFO 31832 --- [UserRoles] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2025-05-04T19:34:16.520+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8d33b994-546f-3b19-a1ce-4ac9a7c9658d
+2025-05-04T19:34:17.372+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4000 (http)
+2025-05-04T19:34:17.403+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-04T19:34:17.403+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-04T19:34:17.473+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-04T19:34:17.475+05:30  INFO 31832 --- [UserRoles] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2054 ms
+2025-05-04T19:34:17.912+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-04T19:34:18.001+05:30  INFO 31832 --- [UserRoles] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-04T19:34:18.047+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-04T19:34:18.395+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-04T19:34:18.444+05:30  INFO 31832 --- [UserRoles] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-04T19:34:19.014+05:30  INFO 31832 --- [UserRoles] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25a37368
+2025-05-04T19:34:19.017+05:30  INFO 31832 --- [UserRoles] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-04T19:34:19.090+05:30  WARN 31832 --- [UserRoles] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-04T19:34:19.107+05:30  INFO 31832 --- [UserRoles] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-04T19:34:20.398+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-04T19:34:20.478+05:30  INFO 31832 --- [UserRoles] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-04T19:34:20.898+05:30  WARN 31832 --- [UserRoles] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-04T19:34:22.157+05:30  INFO 31832 --- [UserRoles] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-05-04T19:34:22.217+05:30  WARN 31832 --- [UserRoles] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-05-04T19:34:22.288+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-05-04T19:34:22.440+05:30  INFO 31832 --- [UserRoles] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4000 (http) with context path '/'
+2025-05-04T19:34:22.470+05:30  INFO 31832 --- [UserRoles] [restartedMain] com.cts.UserRolesApplication             : Started UserRolesApplication in 9.907 seconds (process running for 11.012)
+2025-05-04T19:34:23.068+05:30  INFO 31832 --- [UserRoles] [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-04T19:34:23.069+05:30  INFO 31832 --- [UserRoles] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-04T19:34:23.072+05:30  INFO 31832 --- [UserRoles] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-04T19:34:32.619+05:30  INFO 31832 --- [UserRoles] [http-nio-4000-exec-2] com.cts.service.UserRolesServiceImpl     : New User is saved
