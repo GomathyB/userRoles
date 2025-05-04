@@ -16,28 +16,29 @@ import com.cts.service.UserRolesService;
 
 import jakarta.validation.Valid;
 
+//This is the controller class to define the URLs
 @RestController
-@RequestMapping("/userRoles")
+@RequestMapping("/userRoles") // Base URL
 public class UserRolesController {
 	@Autowired
-	UserRolesService service;
+	UserRolesService service;// Injecting the service layer
 
-	@PostMapping("/addUser")
+	@PostMapping("/addUser") // Add a new user
 	public String addUser(@Valid @RequestBody UserRoles user) {
 		return service.addUser(user);
 	}
 
-	@PutMapping("/updateUser")
+	@PutMapping("/updateUser") // Update a existing user
 	public String updateUser(@Valid @RequestBody UserRoles user) {
 		return service.updateUser(user);
 	}
 
-	@DeleteMapping("/deleteUser/{id}")
+	@DeleteMapping("/deleteUser/{id}") // Delete a existing user by their ID
 	public String deleteUser(@PathVariable("id") int userId) {
 		return service.deleteUser(userId);
 	}
 
-	@GetMapping("/viewUserById/{id}")
+	@GetMapping("/viewUserById/{id}") // View a existing user by their ID
 	public UserRoles viewUserById(@PathVariable("id") int userId) throws UserNotFoundException {
 		return service.viewUserById(userId);
 	}
